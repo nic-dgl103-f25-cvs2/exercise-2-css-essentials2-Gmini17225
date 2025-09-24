@@ -1,0 +1,123 @@
+/* ======== GENERAL STYLES ========= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f3eceb;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* section element */
+ {
+  width: 900px;
+  margin: auto;
+}
+
+/* image element */
+ {
+  margin: auto;
+  display: block;
+}
+
+/*-------- TYPOGRAPHY ---------*/
+
+/* heading 1 element */
+ {
+  font-family: serif;
+  font-size: 40px;
+  margin-top: 0;
+  text-align: center;
+}
+
+/* anchor element */
+ {
+  color: #e6a39a;
+}
+
+/*-------- HEADER AND NAVIGATION ---------*/
+
+/* header element */
+ {
+  background: url("images/hairdressing.jpeg") no-repeat top left;
+  background-attachment: fixed;
+  background-color: white;
+}
+
+/* anchor element inside a header */
+ {
+  display: block;
+  text-align: center;
+}
+
+/* navigation element */
+ {
+  background-color: black;
+  text-align: center;
+  margin: 0 0 40px;
+}
+
+/* unordered list inside a navigation */
+ {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* list item inside a navigation */
+ {
+  display: inline-block;
+  padding: 20px;
+}
+
+/* anchor inside a navigation */
+ {
+  text-decoration: none;
+}
+
+/* ------- FOOTER ------- */
+
+/* footer element */
+ {
+  background-color: #000000;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* ======== CONTENT BLOCKS ========= */
+
+/* self-contained group of content that advertises another part of the website */
+ {
+  text-align: center;
+  background-color: #e8a49b;
+  padding: 40px;
+  margin: 40px 0;
+}
+
+/* anchor inside an advert */
+ {
+  color: white;
+}
+
+/* the section of content that contains the price list on the Services page*/
+ {
+  background-color: #e8a49b;
+  padding: 40px;
+  margin: 40px auto;
+}
+
+/* heading 2 inside the price list */
+ {
+  text-align: center;
+  font-family: serif;
+  font-size: 30px;
+}
+
+/* unordered list inside the price list */
+ {
+  list-style-type: square;
+}
