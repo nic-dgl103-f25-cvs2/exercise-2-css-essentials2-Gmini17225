@@ -23,8 +23,7 @@ body {
 /* image element */
  img {
   margin: auto;
-  display: absolute;
-  max-width: 100%;
+  display: block;
 
 }
 
