@@ -35,7 +35,7 @@ img {
 
 /* anchor element */
 a {
-  color: #e6a39a;
+  color: #91adc0;
 }
 
 /*-------- HEADER AND NAVIGATION ---------*/
@@ -93,7 +93,7 @@ nav a {
 /* self-contained group of content that advertises another part of the website */
 .advert {
   text-align: center;
-  background-color: #e8a49b;
+  background-color: #91adc0;
   padding: 40px;
   margin: 40px 0;
 }
@@ -105,7 +105,7 @@ nav a {
 
 /* the section of content that contains the price list on the Services page*/
  .price-list {
-  background-color: #e8a49b;
+  background-color: #91adc0;
   padding: 40px;
   margin: 40px auto;
 }
@@ -120,4 +120,29 @@ nav a {
 /* unordered list inside the price list */
 .price-list ul {
   list-style-type: square;
+}
+
+
+
+.contact {
+ background-color: #91adc0;
+ padding: 40px;
+  margin: 40px auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 25px;
+  letter-spacing: .5px;
+  column-count : 2;
+  column-gap : 50px;
+}
+
+.contact p a {
+  color: #ffffff;
+}
+
+.contact h2 {
+  color: #ffffff;
+}
+
+h1 {
+  color: #91adc0;
 }
