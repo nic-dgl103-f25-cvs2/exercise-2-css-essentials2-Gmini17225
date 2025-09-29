@@ -9,17 +9,16 @@ body {
   background-color: #f3eceb;
   font-size: 16px;
   line-height: 1.4;
-  text-align: center;
 }
 
 /* section element */
- section {
+section {
   width: 900px;
   margin: auto;
 }
 
 /* image element */
- img {
+img {
   margin: auto;
   display: block;
 }
@@ -51,6 +50,7 @@ header {
 /* anchor element inside a header */
 header a {
   display: block;
+  text-align: center;
 }
 
 /* navigation element */
@@ -73,14 +73,14 @@ nav li {
 }
 
 /* anchor inside a navigation */
-nav a { 
+nav a {
   text-decoration: none;
 }
 
 /* ------- FOOTER ------- */
 
 /* footer element */
-footer {
+ footer {
   background-color: #000000;
   color: white;
   padding: 40px;
@@ -95,7 +95,7 @@ footer {
   text-align: center;
   background-color: #e8a49b;
   padding: 40px;
-  margin: 40px auto;
+  margin: 40px 0;
 }
 
 /* anchor inside an advert */
@@ -104,20 +104,20 @@ footer {
 }
 
 /* the section of content that contains the price list on the Services page*/
-.pricelist {
+ .price-list {
   background-color: #e8a49b;
   padding: 40px;
   margin: 40px auto;
 }
 
 /* heading 2 inside the price list */
-.pricelist h2 {
+.price-list h2 {
   text-align: center;
   font-family: serif;
   font-size: 30px;
 }
 
 /* unordered list inside the price list */
-.pricelist ul {
+.price-list ul {
   list-style-type: square;
 }
