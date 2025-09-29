@@ -9,22 +9,19 @@ body {
   background-color: #f3eceb;
   font-size: 16px;
   line-height: 1.4;
-
-
+  text-align: center;
 }
 
 /* section element */
- section{
+ section {
   width: 900px;
   margin: auto;
-
 }
 
 /* image element */
  img {
   margin: auto;
   display: block;
-
 }
 
 /*-------- TYPOGRAPHY ---------*/
@@ -49,13 +46,11 @@ header {
   background: url("images/hairdressing.jpeg") no-repeat top left;
   background-attachment: fixed;
   background-color: white;
-  
 }
 
 /* anchor element inside a header */
 header a {
   display: block;
-  text-align: center;
 }
 
 /* navigation element */
@@ -100,7 +95,7 @@ footer {
   text-align: center;
   background-color: #e8a49b;
   padding: 40px;
-  margin: 40px 0;
+  margin: 40px auto;
 }
 
 /* anchor inside an advert */
