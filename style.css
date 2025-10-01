@@ -122,7 +122,7 @@ nav a {
   list-style-type: square;
 }
 
-
+/*Contact section styles*/
 
 .contact {
  background-color: #91adc0;
@@ -135,6 +135,8 @@ nav a {
   column-gap : 50px;
 }
 
+/* Link color changes */
+
 .contact p a {
   color: #ffffff;
 }
@@ -145,4 +147,22 @@ nav a {
 
 h1 {
   color: #91adc0;
+}
+
+/* Appointment section styles */
+
+.appointment {
+  background-color: #f3eceb;
+  padding: 40px;
+  margin: 40px auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 25px;
+  letter-spacing: .5px;
+  column-count : 1;
+  column-gap : 50px;
+}
+.appointment h2 {
+  color: #91adc0;
+  text-align: center;
+  outline-color: black;
 }
