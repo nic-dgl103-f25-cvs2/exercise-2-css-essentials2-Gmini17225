@@ -12,13 +12,13 @@ body {
 }
 
 /* section element */
- {
+section {
   width: 900px;
   margin: auto;
 }
 
 /* image element */
- {
+img {
   margin: auto;
   display: block;
 }
@@ -26,7 +26,7 @@ body {
 /*-------- TYPOGRAPHY ---------*/
 
 /* heading 1 element */
- {
+ h1 {
   font-family: serif;
   font-size: 40px;
   margin-top: 0;
@@ -34,53 +34,53 @@ body {
 }
 
 /* anchor element */
- {
-  color: #e6a39a;
+a {
+  color: #91adc0;
 }
 
 /*-------- HEADER AND NAVIGATION ---------*/
 
 /* header element */
- {
+header {
   background: url("images/hairdressing.jpeg") no-repeat top left;
   background-attachment: fixed;
   background-color: white;
 }
 
 /* anchor element inside a header */
- {
+header a {
   display: block;
   text-align: center;
 }
 
 /* navigation element */
- {
+nav {
   background-color: black;
   text-align: center;
   margin: 0 0 40px;
 }
 
 /* unordered list inside a navigation */
- {
+nav ul {
   list-style-type: none;
   padding-left: 0;
 }
 
 /* list item inside a navigation */
- {
+nav li {
   display: inline-block;
   padding: 20px;
 }
 
 /* anchor inside a navigation */
- {
+nav a {
   text-decoration: none;
 }
 
 /* ------- FOOTER ------- */
 
 /* footer element */
- {
+ footer {
   background-color: #000000;
   color: white;
   padding: 40px;
@@ -91,33 +91,78 @@ body {
 /* ======== CONTENT BLOCKS ========= */
 
 /* self-contained group of content that advertises another part of the website */
- {
+.advert {
   text-align: center;
-  background-color: #e8a49b;
+  background-color: #91adc0;
   padding: 40px;
   margin: 40px 0;
 }
 
 /* anchor inside an advert */
- {
+.advert a {
   color: white;
 }
 
 /* the section of content that contains the price list on the Services page*/
- {
-  background-color: #e8a49b;
+ .price-list {
+  background-color: #91adc0;
   padding: 40px;
   margin: 40px auto;
 }
 
 /* heading 2 inside the price list */
- {
+.price-list h2 {
   text-align: center;
   font-family: serif;
   font-size: 30px;
 }
 
 /* unordered list inside the price list */
- {
+.price-list ul {
   list-style-type: square;
+}
+
+/*Contact section styles*/
+
+.contact {
+ background-color: #91adc0;
+ padding: 40px;
+  margin: 40px auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 25px;
+  letter-spacing: .5px;
+  column-count : 2;
+  column-gap : 50px;
+}
+
+/* Link color changes */
+
+.contact p a {
+  color: #ffffff;
+}
+
+.contact h2 {
+  color: #ffffff;
+}
+
+h1 {
+  color: #91adc0;
+}
+
+/* Appointment section styles */
+
+.appointment {
+  background-color: #f3eceb;
+  padding: 40px;
+  margin: 40px auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 25px;
+  letter-spacing: .5px;
+  column-count : 1;
+  column-gap : 50px;
+}
+.appointment h2 {
+  color: #91adc0;
+  text-align: center;
+  outline-color: black;
 }
